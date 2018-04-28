@@ -1,3 +1,4 @@
+import json
 
 
 class BasicFuncs(object):
@@ -13,3 +14,9 @@ class BasicFuncs(object):
         first_line = file_content.splitlines()[0]
         api_key = first_line.lstrip().rstrip()
         return api_key
+
+    @staticmethod
+    def load_json_file(file_path: str) -> str:
+        with open(file_path, 'r') as f:
+            json_dict = json.loads(f.read())
+        return json_dict
