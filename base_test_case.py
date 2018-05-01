@@ -1,3 +1,4 @@
+from numpy import testing
 from unittest import TestCase
 from mock import patch, mock_open
 
@@ -16,3 +17,8 @@ class BaseTestCase(TestCase):
         """
         m = mock_open(read_data=read_data)
         return patch('builtins.open', m, create=True)
+
+    @staticmethod
+    def assert_numpy_array_equal(x, y, err_msg='', verbose=True):
+        testing.assert_array_equal(x, y, err_msg=err_msg, verbose=verbose)
+
