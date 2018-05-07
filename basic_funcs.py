@@ -1,7 +1,10 @@
 import os
 import json
+import requests
 import subprocess
 import logging
+import time
+import tempfile
 
 
 class BasicFuncs(object):
@@ -17,6 +20,10 @@ class BasicFuncs(object):
         first_line = file_content.splitlines()[0]
         api_key = first_line.lstrip().rstrip()
         return api_key
+
+    @staticmethod
+    def sleep(time_in_seconds: int):
+        time.sleep(time_in_seconds)
 
     @staticmethod
     def load_json_file(file_path: str) -> str:
@@ -43,3 +50,20 @@ class BasicFuncs(object):
             return b.decode()
         else:
             subprocess.check_call(cmd, shell=True, stderr=subprocess.STDOUT, env=custom_env)
+
+    @staticmethod
+    def download_binary_to_path(download_url: str, full_download_path: str, cookies):
+        response = requests.get(download_url, stream=True, cookies=cookies)
+        with open(full_download_path, 'wb') as f:
+            for chunk in response.iter_content(chunk_size=1024):
+                if chunk:
+                    f.write(chunk)
+
+    @staticmethod
+    def get_tempfile_path():
+        return tempfile.mkstemp()
+
+    @staticmethod
+    def setup_logging():
+        logging_format = '%(asctime)s %(name)-12s %(levelname)-8s %(message)s'
+        logging.basicConfig(level=logging.INFO, format=logging_format)
