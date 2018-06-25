@@ -26,7 +26,7 @@ class BasicFuncs(object):
         time.sleep(time_in_seconds)
 
     @staticmethod
-    def load_json_file(file_path: str) -> str:
+    def load_json_file(file_path: str) -> dict:
         with open(file_path, 'r') as f:
             json_dict = json.loads(f.read())
         return json_dict

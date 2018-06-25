@@ -1,7 +1,9 @@
+import json
 import re
 from retry import retry
 from selenium.webdriver import Chrome
 from selenium.common.exceptions import ElementNotVisibleException, NoSuchElementException
+from piyush_utils.basic_funcs import BasicFuncs
 
 
 exceptions = (ElementNotVisibleException, NoSuchElementException)
@@ -57,3 +59,18 @@ class ChromeDriver(Chrome):
             if re.match(css_regex_search, element.text):
                 return element
         raise NoSuchElementException
+
+    @retry(exceptions, delay=3, tries=3)
+    def tap_element_by_id(self, id_: str):
+        self.find_element_by_id(id_).click()
+
+    def save_cookies(self, path_to_save: str):
+        cookies = {c['name']: c['value'] for c in self.get_cookies()}
+        json_cookies = json.dumps(cookies)
+        BasicFuncs.write_to_file(path_to_save, json_cookies)
+
+    def load_cookies(self, cookies_json_path: str):
+        json_cookies = BasicFuncs.load_json_file(cookies_json_path)
+        for cookie_name, cookie_value in json_cookies.items():
+            self.add_cookie({'name': cookie_name, 'value': cookie_value})
+        return json_cookies
