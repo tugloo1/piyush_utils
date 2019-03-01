@@ -1,3 +1,4 @@
+from piyush_utils.basic_funcs import BasicFuncs
 from numpy import testing
 from unittest import TestCase
 from mock import patch, mock_open
@@ -22,3 +23,11 @@ class BaseTestCase(TestCase):
     def assert_numpy_array_equal(x, y, err_msg='', verbose=True):
         testing.assert_array_equal(x, y, err_msg=err_msg, verbose=verbose)
 
+    def assert_file_content_equal_to_string(self, actual_string: str, file_path: str):
+        """ This method will check if the string in the file path is the same as the actual_string
+        :param actual_string:
+        :param file_path:
+        :return:
+        """
+        file_string = BasicFuncs.load_file_as_string(file_path)
+        self.assertEqual(file_string, actual_string)
