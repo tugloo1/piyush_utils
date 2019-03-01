@@ -30,4 +30,4 @@ class BaseTestCase(TestCase):
         :return:
         """
         file_string = BasicFuncs.load_file_as_string(file_path)
-        self.assertEqual(file_string, actual_string)
+        self.assertMultiLineEqual(file_string, actual_string)
