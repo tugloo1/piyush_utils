@@ -5,6 +5,7 @@ from abjad import KeySignature
 
 class RandomIntervals(object):
     scale_shift = {
+        'Bb': -2,
         'C': 0,
         'D': 2,
         'E': 4,
@@ -21,9 +22,10 @@ class RandomIntervals(object):
         return random.sample(RandomIntervals.scale_shift.keys(), 1)[0]
 
     @classmethod
-    def generate_n_random_notes(cls, n: int):
+    def generate_n_random_notes(cls, n: int, scale: str=None):
         duration = abjad.Duration(1, 4)
-        scale = cls.select_random_scale()
+        if not scale:
+            scale = cls.select_random_scale()
         print('selected scale is ' + scale)
         signature = KeySignature(scale.lower(), 'major')
         random_scale = cls.scale_shift[scale]
@@ -38,5 +40,6 @@ class RandomIntervals(object):
         abjad.show(staff)
 
 
-RandomIntervals.generate_n_random_notes(30)
+if __name__ == '__main__':
+    RandomIntervals.generate_n_random_notes(20, 'Bb')
 
