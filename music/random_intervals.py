@@ -1,5 +1,6 @@
 import abjad
 import random
+from abjad import KeySignature
 
 
 class RandomIntervals(object):
@@ -24,6 +25,7 @@ class RandomIntervals(object):
         duration = abjad.Duration(1, 4)
         scale = cls.select_random_scale()
         print('selected scale is ' + scale)
+        signature = KeySignature(scale.lower(), 'major')
         random_scale = cls.scale_shift[scale]
         notes = []
         while n > len(cls.base_scale):
@@ -32,6 +34,7 @@ class RandomIntervals(object):
         notes += random.sample(cls.base_scale, n)
         new_notes = [abjad.Note(i + random_scale, duration) for i in notes]
         staff = abjad.Staff(new_notes)
+        abjad.attach(signature, staff[0])
         abjad.show(staff)
 
 
