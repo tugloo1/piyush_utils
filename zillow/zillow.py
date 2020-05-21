@@ -57,7 +57,7 @@ class ZillowAnalyzer(object):
 
 
 if __name__ == '__main__':
-    z = ZillowAnalyzer('assets'
+    z = ZillowAnalyzer('assets')
     z.process_input_file()
     z.generate_consolidating_listing_file()
     z.print_unseen_listings()
