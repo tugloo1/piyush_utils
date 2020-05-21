@@ -1,1 +1,440 @@
-{}
+{
+    "https://www.zillow.com/homes/homedetails/1001-Pacific-St-B-Santa-Monica-CA-90405/2079687484_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/10054-Culver-Blvd-Culver-City-CA-90232/135330826_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/10121-Tabor-St-Los-Angeles-CA-90034/2079773506_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/10138-Palms-Blvd-APT-20-Los-Angeles-CA-90034/2116112549_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/10142-National-Blvd-APT-106-Los-Angeles-CA-90034/2100641864_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/10144-National-Blvd-106-Los-Angeles-CA-90034/2079614862_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/10201-Woodbine-St-210-Los-Angeles-CA-90034/2080107757_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/10215-Tabor-St-APT-2-Los-Angeles-CA-90034/2085570383_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/10300-National-Blvd-Los-Angeles-CA-90034/2080571298_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/10405-Irene-St-APT-204-Los-Angeles-CA-90034/2080298535_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/10425-Woodbine-St-APT-20-Los-Angeles-CA-90034/2088886548_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/10433-Irene-St-Los-Angeles-CA-90034/2079729751_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/10601-Ayres-Ave-APT-2-Los-Angeles-CA-90064/2100641690_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/10670-Ayres-Ave-4-Los-Angeles-CA-90064/2079513335_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/10670-Ayres-Ave-Los-Angeles-CA-90064/2079910246_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/10722-Woodbine-St-APT-3-Los-Angeles-CA-90034/2088809457_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/10753-Palms-Blvd-APT-1-Los-Angeles-CA-90034/2092026644_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/10776-Rose-Ave-APT-8-Los-Angeles-CA-90034/2105469838_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/10874-Rose-Ave-APT-6-Los-Angeles-CA-90034/2088340349_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/11131-Rose-Ave-APT-10-Los-Angeles-CA-90034/2096411538_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1132-7th-St-Santa-Monica-CA-90403/2080436218_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/1211-Pico-Blvd-Santa-Monica-CA-90405/2080106436_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/1225-11th-St-B-Santa-Monica-CA-90401/2080048077_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/1229-12th-St-4-Santa-Monica-CA-90401/2079714824_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1231-12th-St-APT-D-Santa-Monica-CA-90401/2080424571_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1304-Arizona-Ave-E-Santa-Monica-CA-90404/2080213814_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1327-11th-St-4-Santa-Monica-CA-90401/2079663397_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1417-Grant-St-Santa-Monica-CA-90405/20480794_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/1419-25th-St-APT-C-Santa-Monica-CA-90404/2080842290_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/1424-10th-St-APT-C-Santa-Monica-CA-90401/2094560337_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1427-9th-St-APT-C-Santa-Monica-CA-90401/2102718016_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1432-9th-St-APT-7-Santa-Monica-CA-90401/2087055766_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1433-25th-St-APT-2-Santa-Monica-CA-90404/2079742367_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1433-Harvard-St-APT-7-Santa-Monica-CA-90404/2080126609_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/1453-Harvard-St-APT-E-Santa-Monica-CA-90404/2101604426_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/1522-6th-St-76JDMQDQY-Santa-Monica-CA-90401/2081178477_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/1543-Euclid-St-APT-J-Santa-Monica-CA-90404/2085511101_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/1633-Centinela-Ave-8492846-Santa-Monica-CA-90404/2079652776_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1647-Franklin-St-Santa-Monica-CA-90404/2085205836_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/1748-Lincoln-Blvd-2-Santa-Monica-CA-90404/2081244300_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1808-9th-St-C-Santa-Monica-CA-90404/2079559004_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/1834-Michigan-Ave-APT-B-Santa-Monica-CA-90404/2083808806_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1841-16th-St-UNIT-4-Santa-Monica-CA-90404/2079507078_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/1843-7th-St-Santa-Monica-CA-90401/2080194895_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1914-Cloverfield-Blvd-APT-9-Santa-Monica-CA-90404/2087559322_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/2003-Olympic-Blvd-242-Santa-Monica-CA-90404/2079509665_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/2123-Delaware-Ave-Santa-Monica-CA-90404/2097947887_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/2206-20th-St-APT-A-Santa-Monica-CA-90405/2079713226_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/2346-20th-St-APT-B-Santa-Monica-CA-90405/2091313512_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/2408-Ocean-Park-Blvd-APT-4-Santa-Monica-CA-90405/2093573922_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/2425-S-Barrington-Ave-Los-Angeles-CA-90064/2080745858_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/2440-Corinth-Ave-205-Los-Angeles-CA-90064/2080084240_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/2501-Pico-Blvd-64BH4KGCR-Santa-Monica-CA-90405/2079530041_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/2515-Ocean-Park-Blvd-APT-C-Santa-Monica-CA-90405/2085357572_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/2536-28th-St-APT-4-Santa-Monica-CA-90405/2103098745_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/2540-S-Barrington-Ave-10-Los-Angeles-CA-90064/2079515891_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/2596-Wellesley-Ave-2596-Los-Angeles-CA-90064/2079864339_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/2621-Centinela-Ave-APT-8-Santa-Monica-CA-90405/20472085_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/2830-S-Sepulveda-Blvd-22-Los-Angeles-CA-90064/2079632925_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3042-Livonia-Ave-APT-C4-Los-Angeles-CA-90034/2087548420_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3101-S-Durango-Ave-14-Los-Angeles-CA-90034/2080157461_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3102-Bagley-Ave-APT-7-Los-Angeles-CA-90034/2111306178_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3102-S-Canfield-Ave-6-Los-Angeles-CA-90034/2080063163_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3106-S-Canfield-Ave-Los-Angeles-CA-90034/2080104678_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3135-S-Durango-Ave-APT-2-Los-Angeles-CA-90034/2088061591_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3201-Overland-Ave-APT-8191-Los-Angeles-CA-90034/2093225104_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3207-Bagley-Ave-APT-2-Los-Angeles-CA-90034/2080047139_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3212-Bagley-Ave-9P4GBQJPN-Los-Angeles-CA-90034/2088914685_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3230-Overland-Ave-APT-108-Los-Angeles-CA-90034/2086591706_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3244-Overland-Ave-0-Los-Angeles-CA-90034/2081305844_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3258-Overland-Ave-0-Los-Angeles-CA-90034/2079712658_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3320-Keystone-Ave-4-Los-Angeles-CA-90034/2079683313_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3322-Keystone-Ave-4-Los-Angeles-CA-90034/2079557600_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3337-S-Durango-Ave-Los-Angeles-CA-90034/2079608172_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3343-Bagley-Ave-APT-7-Los-Angeles-CA-90034/2092289452_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3361-Bagley-Ave-6-Los-Angeles-CA-90034/2079867403_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3365-Keystone-Ave-APT-1-Los-Angeles-CA-90034/2112984629_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3369-Vinton-Ave-APT-5-Los-Angeles-CA-90034/2080832508_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3375-Manning-Ave-Los-Angeles-CA-90064/2080503237_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3414-Mentone-Ave-3-Los-Angeles-CA-90034/2079847888_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3415-S-Sepulveda-Blvd-29WEDC05W-Los-Angeles-CA-90034/2080760661_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3416-Mentone-Ave-3-Los-Angeles-CA-90034/2079557573_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3506-S-Bentley-Ave-Los-Angeles-CA-90034/2080192774_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3510-Clarington-Ave-15-Los-Angeles-CA-90034/2080407840_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3519-Clarington-Ave-APT-3-Los-Angeles-CA-90034/2080316306_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3541-Jasmine-Ave-8-Los-Angeles-CA-90034/2079530383_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3554-Mentone-Ave-APT-5-Los-Angeles-CA-90034/2080292432_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3601-Keystone-Ave-APT-6-Los-Angeles-CA-90034/2100130090_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3605-Watseka-Ave-APT-3-Los-Angeles-CA-90034/2082032731_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3611-Mentone-Ave-4-Los-Angeles-CA-90034/2079695463_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3623-Keystone-Ave-APT-1-Los-Angeles-CA-90034/2128715371_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3625-S-Sepulveda-Blvd-Los-Angeles-CA-90034/2080453807_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3626-Keystone-Ave-1-Los-Angeles-CA-90034/2080368341_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3626-Motor-Ave-Los-Angeles-CA-90034/2080935947_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3640-Jasmine-Ave-APT-5-Los-Angeles-CA-90034/2081210408_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3653-Overland-Ave-13-Los-Angeles-CA-90034/2079639815_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3653-Overland-Ave-APT-9-Los-Angeles-CA-90034/2087159867_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3662-Empire-Dr-A-Los-Angeles-CA-90034/2079616152_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3663-Mentone-Ave-APT-7-Los-Angeles-CA-90034/2091363461_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3671-Midvale-Ave-APT-12-Los-Angeles-CA-90034/2100357142_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3675-Vinton-Ave-2-Los-Angeles-CA-90034/2079783071_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3707-Motor-Ave-APT-211-Los-Angeles-CA-90034/2092570734_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3713-Mentone-Ave-10-Los-Angeles-CA-90034/2080050246_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3715-S-Sepulveda-Blvd-APT-2-Los-Angeles-CA-90034/2082953154_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3718-Clarington-Ave-APT-27-Los-Angeles-CA-90034/2110208753_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3718-Mentone-Ave-APT-2-Los-Angeles-CA-90034/2087531790_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3730-S-Sepulveda-Blvd-APT-101-Los-Angeles-CA-90034/2128712355_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3731-S-Canfield-Ave-1X1-Los-Angeles-CA-90034/2080260706_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3732-Cardiff-Ave-APT-4-Los-Angeles-CA-90034/2089568301_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3733-Keystone-Ave-6-Los-Angeles-CA-90034/2079781104_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3745-Keystone-Ave-Los-Angeles-CA-90034/2079829304_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3751-Midvale-Ave-APT-5-Los-Angeles-CA-90034/2090714028_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3754-1-2-Veteran-Ave-Los-Angeles-CA-90034/2080200870_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3754-S-Sepulveda-Blvd-APT-18-Los-Angeles-CA-90034/2099307926_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3754-Veteran-Ave-3-Los-Angeles-CA-90034/2079715576_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3757-Vinton-Ave-2-Los-Angeles-CA-90034/2079934419_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3759-Vinton-Ave-2-Los-Angeles-CA-90034/2080147209_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3760-Midvale-Ave-APT-104-Los-Angeles-CA-90034/2089583789_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3762-S-Canfield-Ave-2-Los-Angeles-CA-90034/2079586488_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3763-Hughes-Ave-APT-6-Los-Angeles-CA-90034/2124159713_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3771-Jasmine-Ave-APT-10-Los-Angeles-CA-90034/2097433960_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3813-Huron-Ave-APT-5-Culver-City-CA-90232/20436234_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3833-Prospect-Ave-Culver-City-CA-90232/2097461023_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3848-Mentone-Avenue-At-Studio-View-At-Studio-Vw-Culver-City-CA-90232/2080298420_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3852-Vinton-Ave-406-Culver-City-CA-90232/2079514291_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/3854-Mentone-Ave-UNIT-6-Culver-City-CA-90232/2080197356_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/47-Seaview-Ter-A-Santa-Monica-CA-90401/2080393814_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/500-California-Ave-16-Santa-Monica-CA-90403/2079508984_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/9025-National-Blvd-9025-Los-Angeles-CA-90034/2079640109_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/9211-National-Blvd-11-Los-Angeles-CA-90034/2079655863_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/9344-National-Blvd-APT-15-Los-Angeles-CA-90034/2079685088_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/9400-National-Blvd-APT-6-Los-Angeles-CA-90034/2106525194_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/9404-Regent-St-202-Los-Angeles-CA-90034/2079517675_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/9710-Regent-St-APT-4-Los-Angeles-CA-90034/2123610050_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/9725-Regent-St-3-Los-Angeles-CA-90034/2079830714_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/College-Ave-Culver-City-CA-90232/2079809218_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/Mentone-Ave-Culver-City-CA-90232/2091430566_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/Motor-Ave-Culver-City-CA-90232/2082817419_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/Ocean-Park-Blvd-Santa-Monica-CA-90405/2084140986_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/S-Bentley-Ave-Los-Angeles-CA-90064/2079564028_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/S-Bentley-Ave-Los-Angeles-CA-90064/2081022209_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/S-Canfield-Ave-Los-Angeles-CA-90034/2079775411_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/S-Sepulveda-Blvd-Los-Angeles-CA-90034/2083132297_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/S-Sepulveda-Blvd-Los-Angeles-CA-90064/2080679450_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/Sawtelle-Blvd-Los-Angeles-CA-90064/2079567042_zpid/": {
+        "status": "like"
+    },
+    "https://www.zillow.com/homes/homedetails/Spad-Pl-Culver-City-CA-90232/2079661243_zpid/": {
+        "status": "ignore"
+    }
+}

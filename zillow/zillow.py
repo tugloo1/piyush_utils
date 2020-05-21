@@ -51,10 +51,13 @@ class ZillowAnalyzer(object):
             raise Exception('uh oh')
 
     def generate_consolidating_listing_file(self):
-        pass
+        path = os.path.join(self.main_folder, 'listings.json')
+        with open(path, 'w') as f:
+            json.dump(self.listing_status_map, indent=4, sort_keys=True, fp=f)
 
 
 if __name__ == '__main__':
-    z = ZillowAnalyzer('assets')
+    z = ZillowAnalyzer('assets'
     z.process_input_file()
+    z.generate_consolidating_listing_file()
     z.print_unseen_listings()

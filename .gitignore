@@ -1,2 +1,4 @@
 **/.cache/**
 **/__pycache__/**
+zillow/assets/input.txt
+.idea/**
