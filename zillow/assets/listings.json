@@ -276,7 +276,7 @@
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/3626-Keystone-Ave-1-Los-Angeles-CA-90034/2080368341_zpid/": {
-        "status": "unseen"
+        "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/3626-Motor-Ave-Los-Angeles-CA-90034/2080935947_zpid/": {
         "status": "ignore"
@@ -297,16 +297,16 @@
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/3671-Midvale-Ave-APT-12-Los-Angeles-CA-90034/2100357142_zpid/": {
-        "status": "unseen"
+        "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/3675-Vinton-Ave-2-Los-Angeles-CA-90034/2079783071_zpid/": {
-        "status": "unseen"
+        "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/3707-Motor-Ave-APT-211-Los-Angeles-CA-90034/2092570734_zpid/": {
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/3713-Mentone-Ave-10-Los-Angeles-CA-90034/2080050246_zpid/": {
-        "status": "unseen"
+        "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/3715-S-Sepulveda-Blvd-APT-2-Los-Angeles-CA-90034/2082953154_zpid/": {
         "status": "ignore"
@@ -318,7 +318,7 @@
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/3730-S-Sepulveda-Blvd-APT-101-Los-Angeles-CA-90034/2128712355_zpid/": {
-        "status": "unseen"
+        "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/3731-S-Canfield-Ave-1X1-Los-Angeles-CA-90034/2080260706_zpid/": {
         "status": "ignore"
