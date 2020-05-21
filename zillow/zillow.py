@@ -17,10 +17,13 @@ class ZillowAnalyzer(object):
 
     def print_unseen_listings(self):
         count = 0
+        to_sort = []
         for listing in self.listing_status_map:
             if self.listing_status_map[listing]['status'] == 'unseen':
                 count += 1
-                print(listing)
+                to_sort.append(listing)
+        to_sort.sort()
+        print('\n'.join(to_sort))
         print(count)
 
     def process_input_file(self):
@@ -44,9 +47,9 @@ class ZillowAnalyzer(object):
                 raise Exception('FUHHH')
 
             if listing in self.listing_status_map:
-                assert self.listing_status_map[listing]['status'] == status
-            else:
-                self.listing_status_map[listing] = {'status': status}
+                if self.listing_status_map[listing]['status'] != 'unseen':
+                    assert self.listing_status_map[listing]['status'] == status
+            self.listing_status_map[listing] = {'status': status}
         else:
             raise Exception('uh oh')
 
