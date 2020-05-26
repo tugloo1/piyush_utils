@@ -3,18 +3,22 @@
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/10054-Culver-Blvd-Culver-City-CA-90232/135330826_zpid/": {
+        "trader-joes": "yes",
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/10121-Tabor-St-Los-Angeles-CA-90034/2079773506_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/10138-Palms-Blvd-APT-20-Los-Angeles-CA-90034/2116112549_zpid/": {
+        "floor": 2,
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/10142-National-Blvd-APT-106-Los-Angeles-CA-90034/2100641864_zpid/": {
-        "status": "like"
+        "reason": "not close to trader joes",
+        "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/10144-National-Blvd-106-Los-Angeles-CA-90034/2079614862_zpid/": {
+        "floor": 2,
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/10201-Woodbine-St-210-Los-Angeles-CA-90034/2080107757_zpid/": {
@@ -33,9 +37,12 @@
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/10433-Irene-St-Los-Angeles-CA-90034/2079729751_zpid/": {
+        "comments": "i like that its close to traders joes and library",
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/10601-Ayres-Ave-APT-2-Los-Angeles-CA-90064/2100641690_zpid/": {
+        "floor": "bottom",
+        "deposit": "double rent...",
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/10670-Ayres-Ave-4-Los-Angeles-CA-90064/2079513335_zpid/": {
@@ -177,6 +184,7 @@
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/3042-Livonia-Ave-APT-C4-Los-Angeles-CA-90034/2087548420_zpid/": {
+        "inquiry": "May 21",
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/3101-S-Durango-Ave-14-Los-Angeles-CA-90034/2080157461_zpid/": {
@@ -390,24 +398,30 @@
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/9344-National-Blvd-APT-15-Los-Angeles-CA-90034/2079685088_zpid/": {
+        "floor": "not 1st",
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/9400-National-Blvd-APT-6-Los-Angeles-CA-90034/2106525194_zpid/": {
+        "floor": "not 1st",
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/9404-Regent-St-202-Los-Angeles-CA-90034/2079517675_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/9710-Regent-St-APT-4-Los-Angeles-CA-90034/2123610050_zpid/": {
+        "price": "2000",
+        "location": "ideal",
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/9725-Regent-St-3-Los-Angeles-CA-90034/2079830714_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/College-Ave-Culver-City-CA-90232/2079809218_zpid/": {
-        "status": "like"
+        "reason": "not close enough to trader joes",
+        "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/Mentone-Ave-Culver-City-CA-90232/2091430566_zpid/": {
+        "pets": "nope",
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/Motor-Ave-Culver-City-CA-90232/2082817419_zpid/": {
@@ -429,9 +443,11 @@
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/S-Sepulveda-Blvd-Los-Angeles-CA-90064/2080679450_zpid/": {
+        "inquiry": "may 21",
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/Sawtelle-Blvd-Los-Angeles-CA-90064/2079567042_zpid/": {
+        "inquiry": "May 21",
         "status": "like"
     },
     "https://www.zillow.com/homes/homedetails/Spad-Pl-Culver-City-CA-90232/2079661243_zpid/": {

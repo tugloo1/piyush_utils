@@ -26,6 +26,17 @@ class ZillowAnalyzer(object):
         print('\n'.join(to_sort))
         print(count)
 
+    def print_liked_listings(self):
+        count = 0
+        to_sort = []
+        for listing in self.listing_status_map:
+            if self.listing_status_map[listing]['status'] == 'like':
+                count += 1
+                to_sort.append(listing)
+        to_sort.sort()
+        print('\n'.join(to_sort))
+        print(count)
+
     def process_input_file(self):
         path = os.path.join(self.main_folder, 'input.txt')
         with open(path, 'r') as f:
@@ -61,6 +72,4 @@ class ZillowAnalyzer(object):
 
 if __name__ == '__main__':
     z = ZillowAnalyzer('assets')
-    z.process_input_file()
-    z.generate_consolidating_listing_file()
-    z.print_unseen_listings()
+    z.print_liked_listings()
