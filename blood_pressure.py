@@ -52,7 +52,7 @@ output_file("patch.html")
 
 p = figure(plot_width=400, plot_height=400)
 
-p.multi_line([x_line, x_line, x_line, x_line, x_line], [wrist_sys, wrist_dia, wrist_hr, hand_sys, hand_dia],
-             color=["firebrick", "navy", 'black', 'orange', 'green'], alpha=[0.8, 0.3, 1, 0.8, 0.3], line_width=4)
+p.multi_line([x_line, x_line, x_line, x_line], [wrist_sys, wrist_dia, hand_sys, hand_dia],
+             color=["firebrick", "navy", 'orange', 'green'], alpha=[0.8, 0.3, 0.8, 0.3], line_width=4)
 
 show(p)
