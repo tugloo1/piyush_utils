@@ -4,7 +4,7 @@ import json
 
 class ZillowAnalyzer(object):
     defaults = {'pets': 'unknown', 'floor': 0, 'rent': 0, 'area': None, 'target': 0,
-                'trader-joes': 0, 'marukai': 0}
+                'trader-joes': 0, 'marukai': 0, 'metro': 0}
 
     def __init__(self, main_folder: str):
         self.main_folder = main_folder
@@ -136,8 +136,8 @@ class ZillowAnalyzer(object):
                 sawtelle.append(listing)
             else:
                 raise Exception('NOOOO')
-        culver_city.sort(key=lambda x: x[2])
-        sawtelle.sort(key=lambda x: x[2])
+        culver_city.sort(key=lambda x: self.listing_status_map[x]['rent'])
+        sawtelle.sort(key=lambda x: self.listing_status_map[x]['rent'])
         print('Culver City apartments')
         print("\n".join([self.get_info_string(i) for i in culver_city]))
         print('\nSawtelle Apartments')

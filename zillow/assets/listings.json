@@ -8,6 +8,20 @@
     "https://www.zillow.com/b/11522-ohio-ave-los-angeles-ca-9MLS4Y/": {
         "status": "ignore"
     },
+    "https://www.zillow.com/b/11975-iowa-ave-los-angeles-ca-5j3MCm/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/b/1223-s-bundy-dr-los-angeles-ca-5j3Jk7/": {
+        "area": "sawtelle",
+        "floor": 0,
+        "marukai": 0,
+        "metro": 0,
+        "pets": true,
+        "rent": 2200,
+        "status": "ignore",
+        "target": 0,
+        "trader-joes": 0
+    },
     "https://www.zillow.com/b/1235-1243-Federal-Ave.-Los-Angeles-CA/34.049616,-118.458641_ll/": {
         "status": "ignore"
     },
@@ -36,6 +50,9 @@
     "https://www.zillow.com/b/1449-butler-ave-los-angeles-ca-5XmSXf/": {
         "status": "ignore"
     },
+    "https://www.zillow.com/b/1453-s-westgate-avenue-los-angeles-ca-5XtQw6/": {
+        "status": "ignore"
+    },
     "https://www.zillow.com/b/1602-beloit-ave-los-angeles-ca-BScQSK/": {
         "status": "ignore"
     },
@@ -56,10 +73,14 @@
     },
     "https://www.zillow.com/b/1825-beloit-ave.-los-angeles-ca-5YCF2X/": {
         "area": "sawtelle",
-        "floor": 0,
-        "pets": "unknown",
-        "rent": 2050,
-        "status": "ignore"
+        "floor": 2,
+        "marukai": 8,
+        "metro": 8,
+        "pets": true,
+        "rent": 2000,
+        "status": "like",
+        "target": 6,
+        "trader-joes": 5
     },
     "https://www.zillow.com/b/1825-beloit-ave.-los-angeles-ca-BgxNf8/": {
         "area": "sawtelle",
@@ -89,17 +110,6 @@
     "https://www.zillow.com/b/3130-s-durango-ave-los-angeles-ca-5bR3rD/": {
         "status": "ignore"
     },
-    "https://www.zillow.com/b/3147-s.-durango-ave.-los-angeles-ca-9Tz3qc/": {
-        "area": "culver city",
-        "floor": 2,
-        "marukai": 0,
-        "need-to-know": "dishwasher, floor",
-        "pets": true,
-        "rent": 1850,
-        "status": "like",
-        "target": 0,
-        "trader-joes": 0
-    },
     "https://www.zillow.com/b/3200-bagley-ave-los-angeles-ca-5gKGm5/": {
         "status": "ignore"
     },
@@ -107,6 +117,7 @@
         "area": "culver city",
         "floor": 0,
         "marukai": 0,
+        "metro": 0,
         "pets": true,
         "rent": 2000,
         "status": "like",
@@ -130,6 +141,28 @@
         "target": 0,
         "trader-joes": 0
     },
+    "https://www.zillow.com/b/3536-hughes-ave.-los-angeles-ca-5j3M66/": {
+        "area": "culver city",
+        "floor": 0,
+        "marukai": 0,
+        "metro": 0,
+        "pets": true,
+        "rent": 2050,
+        "status": "ignore",
+        "target": 0,
+        "trader-joes": 0
+    },
+    "https://www.zillow.com/b/3643-hughes-ave-los-angeles-ca-5XtRLX/": {
+        "area": "culver city",
+        "floor": 0,
+        "marukai": 0,
+        "metro": 0,
+        "pets": "unknown",
+        "rent": 2000,
+        "status": "ignore",
+        "target": 0,
+        "trader-joes": 0
+    },
     "https://www.zillow.com/b/3648-motor-ave-los-angeles-ca-5XsQqC/": {
         "status": "ignore"
     },
@@ -138,6 +171,20 @@
         "floor": 0,
         "pets": false,
         "rent": 1900,
+        "status": "ignore"
+    },
+    "https://www.zillow.com/b/9025-national-blvd.-los-angeles-ca-5XpJfk/": {
+        "area": "culver city",
+        "floor": 0,
+        "marukai": 0,
+        "metro": 0,
+        "pets": "unknown",
+        "rent": 1925,
+        "status": "ignore",
+        "target": 0,
+        "trader-joes": 0
+    },
+    "https://www.zillow.com/b/9128-national-blvd.-los-angeles-ca-5ZLHJc/": {
         "status": "ignore"
     },
     "https://www.zillow.com/b/9797-national-blvd-los-angeles-ca-9MM4CF/": {
@@ -168,6 +215,16 @@
     "https://www.zillow.com/b/casa-serrana-los-angeles-ca-5XjVVB/": {
         "status": "ignore"
     },
+    "https://www.zillow.com/b/clarington-apartments-los-angeles-ca-5XqRQK/": {
+        "area": "culver city",
+        "floor": 0,
+        "marukai": 0,
+        "pets": true,
+        "rent": 2200,
+        "status": "ignore",
+        "target": 0,
+        "trader-joes": 0
+    },
     "https://www.zillow.com/b/m-lofts-los-angeles-ca-5XjQ7w/": {
         "status": "ignore"
     },
@@ -176,6 +233,9 @@
         "floor": 0,
         "pets": "unknown",
         "rent": 2200,
+        "status": "ignore"
+    },
+    "https://www.zillow.com/b/purdue-apartments-los-angeles-ca-5j3P9s/": {
         "status": "ignore"
     },
     "https://www.zillow.com/b/regent-gardens-apartments-los-angeles-ca-9psP2j/": {
@@ -209,6 +269,9 @@
         "trader-joes": 0
     },
     "https://www.zillow.com/homes/homedetails/10142-National-Blvd-APT-106-Los-Angeles-CA-90034/2100641864_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/10144-Tabor-St-104-Los-Angeles-CA-90034/2079124059_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/10165-Regent-St-9-Los-Angeles-CA-90034/2079718779_zpid/": {
@@ -248,7 +311,7 @@
         "marukai": 36,
         "pets": true,
         "rent": 2000,
-        "status": "like",
+        "status": "offline",
         "target": 15,
         "trader-joes": 26
     },
@@ -258,12 +321,21 @@
     "https://www.zillow.com/homes/homedetails/11522-Ohio-Ave-1-Los-Angeles-CA-90025/2079984700_zpid/": {
         "status": "ignore"
     },
+    "https://www.zillow.com/homes/homedetails/11619-Ohio-Ave-APT-100-West-Los-Angeles-CA-90025/2082910563_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/11622-Idaho-Ave-APT-8-Los-Angeles-CA-90025/2078982252_zpid/": {
+        "status": "ignore"
+    },
     "https://www.zillow.com/homes/homedetails/11655-Iowa-Ave-APT-3-Los-Angeles-CA-90025/2105924707_zpid/": {
         "area": "sawtelle",
         "floor": 1,
         "pets": false,
         "phone": "(310) 838-1828",
         "rent": 1900,
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/11740-Wilshire-Blvd-1319174-Los-Angeles-CA-90025/2107948711_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/11856-Rochester-Ave-4-Los-Angeles-CA-90025/2079920605_zpid/": {
@@ -287,6 +359,17 @@
     },
     "https://www.zillow.com/homes/homedetails/11975-Iowa-Ave-APT-8-Los-Angeles-CA-90025/2082668880_zpid/": {
         "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/12001-Rhode-Island-Ave-1-Los-Angeles-CA-90025/2078855058_zpid/": {
+        "area": "sawtelle",
+        "floor": 0,
+        "marukai": 0,
+        "metro": 0,
+        "pets": "unknown",
+        "rent": 2000,
+        "status": "like",
+        "target": 0,
+        "trader-joes": 0
     },
     "https://www.zillow.com/homes/homedetails/12120-Rochester-Ave-APT-8-West-Los-Angeles-CA-90025/2114472871_zpid/": {
         "status": "ignore"
@@ -333,6 +416,17 @@
     },
     "https://www.zillow.com/homes/homedetails/1242-Wellesley-Ave-16-Los-Angeles-CA-90025/2079492223_zpid/": {
         "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/12424-Texas-Ave-3-Los-Angeles-CA-90025/2079111168_zpid/": {
+        "area": "sawtelle",
+        "floor": 0,
+        "marukai": 0,
+        "metro": 0,
+        "pets": true,
+        "rent": 2100,
+        "status": "ignore",
+        "target": 0,
+        "trader-joes": 0
     },
     "https://www.zillow.com/homes/homedetails/1255-Granville-Ave-Los-Angeles-CA-90025/2079687532_zpid/": {
         "status": "ignore"
@@ -393,6 +487,17 @@
         "pets": true,
         "rent": 2100,
         "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1415-S-Saltair-Ave-Los-Angeles-CA-90025/2080003980_zpid/": {
+        "area": "sawtelle",
+        "floor": 0,
+        "marukai": 0,
+        "metro": 0,
+        "pets": "unknown",
+        "rent": 2200,
+        "status": "like",
+        "target": 0,
+        "trader-joes": 0
     },
     "https://www.zillow.com/homes/homedetails/1422-Armacost-Ave-5-Los-Angeles-CA-90025/2080554572_zpid/": {
         "area": "sawtelle",
@@ -477,6 +582,17 @@
         "rent": 2000,
         "status": "ignore"
     },
+    "https://www.zillow.com/homes/homedetails/1519-1521-Purdue-Ave-5-Los-Angeles-CA-90025/2078949501_zpid/": {
+        "area": "sawtelle",
+        "floor": 1,
+        "marukai": 9,
+        "metro": 8,
+        "pets": "unknown",
+        "rent": 2075,
+        "status": "ignore",
+        "target": 4,
+        "trader-joes": 5
+    },
     "https://www.zillow.com/homes/homedetails/1520-Butler-Ave-APT-9-Los-Angeles-CA-90025/2080942299_zpid/": {
         "status": "ignore"
     },
@@ -487,6 +603,9 @@
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/1522-Butler-Ave-9-Los-Angeles-CA-90025/2080935349_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1525-S-Saltair-Ave-APT-112-Los-Angeles-CA-90025/2081315467_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/1525-S-Saltair-Ave-ONLY-Los-Angeles-CA-90025/2081124561_zpid/": {
@@ -505,11 +624,15 @@
         "area": "sawtelle",
         "floor": 0,
         "marukai": 0,
+        "metro": 0,
         "pets": "unknown",
         "rent": 2150,
         "status": "like",
         "target": 0,
         "trader-joes": 0
+    },
+    "https://www.zillow.com/homes/homedetails/1535-S-Saltair-Ave-APT-203-Los-Angeles-CA-90025/2078857481_zpid/": {
+        "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/1545-Amherst-Ave-APT-304-Los-Angeles-CA-90025/2097569412_zpid/": {
         "area": "sawtelle",
@@ -524,17 +647,20 @@
         "marukai": 0,
         "pets": true,
         "rent": 2000,
-        "status": "like",
+        "status": "ignore",
         "target": 0,
         "trader-joes": 0
+    },
+    "https://www.zillow.com/homes/homedetails/1559-Brockton-Ave-7-Los-Angeles-CA-90025/2079040849_zpid/": {
+        "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/1561-S-Barrington-Ave-3-312-Los-Angeles-CA-90025/2079316469_zpid/": {
         "area": "sawtelle",
         "floor": 0,
         "marukai": 0,
         "pets": "unknown",
-        "rent": 2150,
-        "status": "like",
+        "rent": 2080,
+        "status": "ignore",
         "target": 0,
         "trader-joes": 0
     },
@@ -561,6 +687,9 @@
         "target": 0,
         "trader-joes": 0
     },
+    "https://www.zillow.com/homes/homedetails/1610-1-2-Armacost-Ave-6391386-Los-Angeles-CA-90025/2078995457_zpid/": {
+        "status": "ignore"
+    },
     "https://www.zillow.com/homes/homedetails/1610-Granville-Ave-APT-8-Los-Angeles-CA-90025/2100496553_zpid/": {
         "status": "ignore"
     },
@@ -577,6 +706,12 @@
         "kitchen-floor": "tiles",
         "pets": "unknown",
         "rent": 2100,
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1624-Federal-Ave-APT-3-Los-Angeles-CA-90025/2079698935_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1626-Armacost-Ave-APT-1-Los-Angeles-CA-90025/2078904309_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/1626-Armacost-Ave-APT-1-Los-Angeles-CA-90025/2090909536_zpid/": {
@@ -599,6 +734,9 @@
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/1638-Granville-Ave-APT-2-Los-Angeles-CA-90025/2093635230_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1639-Colby-Ave-APT-5-Los-Angeles-CA-90025/2079007946_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/1640-Barry-Ave-APT-14-Los-Angeles-CA-90025/2101639633_zpid/": {
@@ -659,6 +797,16 @@
     "https://www.zillow.com/homes/homedetails/1705-Purdue-Ave-APT-2-Los-Angeles-CA-90025/2091540873_zpid/": {
         "status": "ignore"
     },
+    "https://www.zillow.com/homes/homedetails/1707-Brockton-Ave-APT-4-Los-Angeles-CA-90025/2098630302_zpid/": {
+        "area": "sawtelle",
+        "floor": 1,
+        "marukai": 0,
+        "pets": "unknown",
+        "rent": 2400,
+        "status": "ignore",
+        "target": 0,
+        "trader-joes": 0
+    },
     "https://www.zillow.com/homes/homedetails/1711-Corinth-Ave-APT-101-Los-Angeles-CA-90025/2115534614_zpid/": {
         "status": "ignore"
     },
@@ -667,6 +815,17 @@
     },
     "https://www.zillow.com/homes/homedetails/1716-Purdue-Ave-Los-Angeles-CA-90025/2079198124_zpid/": {
         "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1718-Federal-Ave-Los-Angeles-CA-90025/2078776354_zpid/": {
+        "area": "sawtelle",
+        "floor": 0,
+        "marukai": 0,
+        "metro": 0,
+        "pets": "unknown",
+        "rent": 1925,
+        "status": "like",
+        "target": 0,
+        "trader-joes": 0
     },
     "https://www.zillow.com/homes/homedetails/1722-Brockton-Ave-APT-7-Los-Angeles-CA-90025/20464365_zpid/": {
         "area": "sawtelle",
@@ -677,6 +836,12 @@
         "status": "ignore",
         "target": 0,
         "trader-joes": 0
+    },
+    "https://www.zillow.com/homes/homedetails/1730-1-2-Granville-Ave-7524131-Los-Angeles-CA-90025/2078774390_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1737-1-4-Sbarrington-Ave-Los-Angeles-CA-90025/2079257895_zpid/": {
+        "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/1737-Butler-Ave-10-Los-Angeles-CA-90025/2079297226_zpid/": {
         "area": "sawtelle",
@@ -712,6 +877,9 @@
         "rent": 2100,
         "status": "ignore"
     },
+    "https://www.zillow.com/homes/homedetails/1755-Granville-Ave-APT-19-Los-Angeles-CA-90025/2078819955_zpid/": {
+        "status": "ignore"
+    },
     "https://www.zillow.com/homes/homedetails/1757-Beloit-Ave-1-Los-Angeles-CA-90025/2081385414_zpid/": {
         "area": "sawtelle",
         "floor": 0,
@@ -729,6 +897,12 @@
         "rent": 2300,
         "status": "ignore"
     },
+    "https://www.zillow.com/homes/homedetails/1806-Corinth-Ave-A-2-Los-Angeles-CA-90025/2079077904_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1806-S-Corinth-Ave-2-Los-Angeles-CA-90025/2079035421_zpid/": {
+        "status": "ignore"
+    },
     "https://www.zillow.com/homes/homedetails/1810-Purdue-Ave-APT-4-Los-Angeles-CA-90025/2081743305_zpid/": {
         "area": "sawtelle",
         "floor": 0,
@@ -742,16 +916,25 @@
         "marukai": 0,
         "pets": true,
         "rent": 2000,
-        "status": "like",
+        "status": "offline",
         "target": 0,
         "trader-joes": 0
+    },
+    "https://www.zillow.com/homes/homedetails/1817-25-Corinth-Ave-2-Los-Angeles-CA-90025/2079669807_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1818-Corinth-Ave-Los-Angeles-CA-90025/2079054642_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1822-Corinth-Ave-APT-3-Los-Angeles-CA-90025/2086856005_zpid/": {
+        "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/1825-S-Beloit-Ave-APT-6-Los-Angeles-CA-90025/2079631390_zpid/": {
         "area": "sawtelle",
         "floor": 0,
         "pets": "unknown",
         "rent": 2050,
-        "status": "ignore"
+        "status": "offline"
     },
     "https://www.zillow.com/homes/homedetails/1829-Colby-Ave-APT-5-Los-Angeles-CA-90025/2088382150_zpid/": {
         "status": "ignore"
@@ -775,6 +958,9 @@
         "floor": 0,
         "pets": "unknown",
         "rent": 2475,
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/1841-Sawtelle-Blvd-APT-305-West-Los-Angeles-CA-90025/2094194199_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/1852-Corinth-Ave-APT-21-Los-Angeles-CA-90025/2107578156_zpid/": {
@@ -865,27 +1051,10 @@
         "rent": 1950,
         "status": "ignore"
     },
-    "https://www.zillow.com/homes/homedetails/3102-S-Canfield-Ave-6-Los-Angeles-CA-90034/2080063163_zpid/": {
-        "area": "culver city",
-        "floor": 1,
-        "marukai": 0,
-        "pets": true,
-        "rent": 1900,
-        "status": "like",
-        "target": 0,
-        "trader-joes": 0
-    },
-    "https://www.zillow.com/homes/homedetails/3103-S-Durango-Ave-14A-Los-Angeles-CA-90034/2079294585_zpid/": {
-        "area": "culver city",
-        "floor": 0,
-        "marukai": 0,
-        "pets": "unknown",
-        "rent": 1800,
-        "status": "like",
-        "target": 0,
-        "trader-joes": "20/5"
-    },
     "https://www.zillow.com/homes/homedetails/3106-S-Canfield-Ave-Los-Angeles-CA-90034/2080104678_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3110-Livonia-Ave-5-Los-Angeles-CA-90034/2079007007_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/3126-S-Halm-Ave-Los-Angeles-CA-90034/20495683_zpid/": {
@@ -908,11 +1077,15 @@
         "area": "culver city",
         "floor": 1,
         "marukai": 0,
+        "metro": 0,
         "pets": true,
         "rent": 2000,
-        "status": "like",
+        "status": "ignore",
         "target": 0,
         "trader-joes": 0
+    },
+    "https://www.zillow.com/homes/homedetails/3145-S-Canfield-Ave-13-Los-Angeles-CA-90034/2079006029_zpid/": {
+        "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/3147-S-Durango-Ave-205-Los-Angeles-CA-90034/2080648574_zpid/": {
         "area": "culver city",
@@ -920,7 +1093,7 @@
         "marukai": 0,
         "pets": "unknown",
         "rent": 1900,
-        "status": "like",
+        "status": "offline",
         "target": 0,
         "trader-joes": 0
     },
@@ -941,7 +1114,7 @@
         "marukai": 0,
         "pets": true,
         "rent": 1900,
-        "status": "like",
+        "status": "ignore",
         "target": 0,
         "trader-joes": 0
     },
@@ -965,8 +1138,32 @@
     "https://www.zillow.com/homes/homedetails/3314-Mentone-Ave-9A-Los-Angeles-CA-90034/2079851321_zpid/": {
         "status": "ignore"
     },
+    "https://www.zillow.com/homes/homedetails/3324-Castle-Heights-Ave-APT-322-Los-Angeles-CA-90034/2084707044_zpid/": {
+        "area": "culver city",
+        "floor": 0,
+        "marukai": 0,
+        "pets": true,
+        "rent": 2200,
+        "status": "ignore",
+        "target": 0,
+        "trader-joes": 0
+    },
     "https://www.zillow.com/homes/homedetails/3337-S-Durango-Ave-Los-Angeles-CA-90034/2079608172_zpid/": {
         "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3339-S-Canfield-Ave-APT-108-Los-Angeles-CA-90034/2117829067_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3344-Castle-Heights-Ave-105-Los-Angeles-CA-90034/2079065880_zpid/": {
+        "area": "culver city",
+        "floor": 0,
+        "marukai": 0,
+        "metro": 0,
+        "pets": "unknown",
+        "rent": 1925,
+        "status": "offline",
+        "target": 0,
+        "trader-joes": 0
     },
     "https://www.zillow.com/homes/homedetails/3361-Bagley-Ave-6-Los-Angeles-CA-90034/2079867403_zpid/": {
         "status": "ignore"
@@ -1051,7 +1248,7 @@
         "marukai": 0,
         "pets": true,
         "rent": 2000,
-        "status": "like",
+        "status": "ignore",
         "target": 0,
         "trader-joes": 0
     },
@@ -1064,6 +1261,9 @@
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/3626-Motor-Ave-Los-Angeles-CA-90034/2080935947_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3627-Bagley-Ave-APT-201-Los-Angeles-CA-90034/2093547500_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/3634-1-2-Motor-Ave-7943292-Los-Angeles-CA-90034/2079472735_zpid/": {
@@ -1080,9 +1280,10 @@
         "area": "culver city",
         "floor": 1,
         "marukai": 0,
+        "metro": 0,
         "pets": true,
-        "rent": 2000,
-        "status": "like",
+        "rent": 1950,
+        "status": "offline",
         "target": 0,
         "trader-joes": 0
     },
@@ -1091,6 +1292,17 @@
     },
     "https://www.zillow.com/homes/homedetails/3652-Clarington-Ave-APT-1-Los-Angeles-CA-90034/2079179971_zpid/": {
         "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3653-Hughes-Ave-APT-105-Los-Angeles-CA-90034/2098354428_zpid/": {
+        "area": "culver city",
+        "floor": 0,
+        "marukai": 0,
+        "metro": 0,
+        "pets": "unknown",
+        "rent": 2000,
+        "status": "ignore",
+        "target": 0,
+        "trader-joes": 0
     },
     "https://www.zillow.com/homes/homedetails/3662-Empire-Dr-A-Los-Angeles-CA-90034/2079616152_zpid/": {
         "status": "ignore"
@@ -1105,6 +1317,9 @@
     "https://www.zillow.com/homes/homedetails/3675-Vinton-Ave-2-Los-Angeles-CA-90034/2079783071_zpid/": {
         "status": "offline"
     },
+    "https://www.zillow.com/homes/homedetails/3709-Watseka-Ave-APT-209-Los-Angeles-CA-90034/2078932186_zpid/": {
+        "status": "unseen"
+    },
     "https://www.zillow.com/homes/homedetails/3714-Jasmine-Ave-Los-Angeles-CA-90034/2079479168_zpid/": {
         "status": "ignore"
     },
@@ -1112,6 +1327,12 @@
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/3719-S-Canfield-Ave-104-Los-Angeles-CA-90034/2079721235_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3722-Bagley-Ave-APT-34-Los-Angeles-CA-90034/2096969899_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3726-Jasmine-Ave-104-Los-Angeles-CA-90034/2080647799_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/3731-S-Canfield-Ave-1X1-Los-Angeles-CA-90034/2080260706_zpid/": {
@@ -1127,13 +1348,36 @@
     "https://www.zillow.com/homes/homedetails/3734-Cardiff-Ave-4-Los-Angeles-CA-90034/2079251400_zpid/": {
         "status": "ignore"
     },
+    "https://www.zillow.com/homes/homedetails/3736-Cardiff-Ave-4-Los-Angeles-CA-90034/2079074258_zpid/": {
+        "area": "culver city",
+        "floor": 0,
+        "marukai": 0,
+        "metro": 0,
+        "pets": false,
+        "rent": 1900,
+        "status": "like",
+        "target": 0,
+        "trader-joes": 0
+    },
+    "https://www.zillow.com/homes/homedetails/3742-S-Canfield-Ave-APT-6-Los-Angeles-CA-90034/2088226601_zpid/": {
+        "status": "ignore"
+    },
     "https://www.zillow.com/homes/homedetails/3745-Bagley-Ave-APT-208-Los-Angeles-CA-90034/2082941664_zpid/": {
         "area": "culver city",
         "floor": 0,
         "pets": "unknown",
         "status": "offline"
     },
+    "https://www.zillow.com/homes/homedetails/3746-S-Canfield-Ave-APT-5-Los-Angeles-CA-90034/2082728798_zpid/": {
+        "status": "unseen"
+    },
+    "https://www.zillow.com/homes/homedetails/3750-Bagley-Ave-APT-102-Los-Angeles-CA-90034/2102718226_zpid/": {
+        "status": "ignore"
+    },
     "https://www.zillow.com/homes/homedetails/3750-Vinton-Ave-APT-303-Los-Angeles-CA-90034/2086146362_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/3759-Bagley-Ave-1-Los-Angeles-CA-90034/2079121550_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/3759-Vinton-Ave-2-Los-Angeles-CA-90034/2080147209_zpid/": {
@@ -1158,6 +1402,9 @@
     "https://www.zillow.com/homes/homedetails/3848-Mentone-Avenue-At-Studio-View-At-Studio-Vw-Culver-City-CA-90232/2080298420_zpid/": {
         "status": "ignore"
     },
+    "https://www.zillow.com/homes/homedetails/4000-Van-Buren-Pl-B-Culver-City-CA-90232/2079124992_zpid/": {
+        "status": "ignore"
+    },
     "https://www.zillow.com/homes/homedetails/4230-Duquesne-Ave-APT-3-Culver-City-CA-90232/2081015684_zpid/": {
         "area": "culver city",
         "floor": 0,
@@ -1166,6 +1413,9 @@
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/8518-Hargis-St-Los-Angeles-CA-90034/20598106_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/8717-Cattaraugus-Ave-APT-2-Los-Angeles-CA-90034/2091054305_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/9025-National-Blvd-9025-Los-Angeles-CA-90034/2079640109_zpid/": {
@@ -1190,6 +1440,9 @@
         "floor": 0,
         "pets": "unknown",
         "rent": 2100,
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/9129-National-Blvd-6-Los-Angeles-CA-90034/2078937251_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/9211-National-Blvd-11-Los-Angeles-CA-90034/2079655863_zpid/": {
@@ -1240,13 +1493,22 @@
         "rent": 1950,
         "status": "ignore"
     },
+    "https://www.zillow.com/homes/homedetails/9829-Tabor-St-Los-Angeles-CA-90034/20496243_zpid/": {
+        "status": "ignore"
+    },
     "https://www.zillow.com/homes/homedetails/9915-National-Blvd-APT-203-Los-Angeles-CA-90034/2121316829_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/Barry-Ave-Los-Angeles-CA-90025/2091251255_zpid/": {
         "status": "ignore"
     },
+    "https://www.zillow.com/homes/homedetails/Brockton-Ave-Los-Angeles-CA-90025/2105346681_zpid/": {
+        "status": "ignore"
+    },
     "https://www.zillow.com/homes/homedetails/Butler-Ave-Los-Angeles-CA-90025/2081861634_zpid/": {
+        "status": "ignore"
+    },
+    "https://www.zillow.com/homes/homedetails/Colby-Ave-Los-Angeles-CA-90025/2078947012_zpid/": {
         "status": "ignore"
     },
     "https://www.zillow.com/homes/homedetails/S-Durango-Ave-Los-Angeles-CA-90034/2081774370_zpid/": {

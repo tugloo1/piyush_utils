@@ -1,20 +1,22 @@
-0
 Culver City apartments
-https://www.zillow.com/homes/homedetails/3103-S-Durango-Ave-14A-Los-Angeles-CA-90034/2079294585_zpid/ 0 1800
-https://www.zillow.com/b/3147-s.-durango-ave.-los-angeles-ca-9Tz3qc/ 2 1850
-https://www.zillow.com/homes/homedetails/3147-S-Durango-Ave-205-Los-Angeles-CA-90034/2080648574_zpid/ 0 1900
-https://www.zillow.com/homes/homedetails/3207-Bagley-Ave-APT-2-Los-Angeles-CA-90034/2080047139_zpid/ 1 1900
-https://www.zillow.com/homes/homedetails/3102-S-Canfield-Ave-6-Los-Angeles-CA-90034/2080063163_zpid/ 1 1900
-https://www.zillow.com/homes/homedetails/3135-S-Durango-Ave-APT-2-Los-Angeles-CA-90034/2088061591_zpid/ 1 2000
-https://www.zillow.com/homes/homedetails/3643-Hughes-Ave-APT-101-Los-Angeles-CA-90034/2105965885_zpid/ 1 2000
-https://www.zillow.com/homes/homedetails/3619-Clarington-Ave-APT-102-Los-Angeles-CA-90034/2103432003_zpid/ 0 2000
+https://www.zillow.com/homes/homedetails/3103-S-Durango-Ave-14A-Los-Angeles-CA-90034/2079294585_zpid/ 2 1800 TJ: 20/5, TGT: 25/14
+https://www.zillow.com/b/3147-s.-durango-ave.-los-angeles-ca-9Tz3qc/ 2 1850 TJ: 0, TGT: 0
+https://www.zillow.com/homes/homedetails/3102-S-Canfield-Ave-6-Los-Angeles-CA-90034/2080063163_zpid/ 1 1900 TJ: 0, TGT: 0
+https://www.zillow.com/homes/homedetails/3736-Cardiff-Ave-4-Los-Angeles-CA-90034/2079074258_zpid/ 0 1900 TJ: 0, TGT: 0
+https://www.zillow.com/b/9025-national-blvd.-los-angeles-ca-5XpJfk/ 0 1925 TJ: 0, TGT: 0
+https://www.zillow.com/homes/homedetails/3344-Castle-Heights-Ave-105-Los-Angeles-CA-90034/2079065880_zpid/ 0 1925 TJ: 0, TGT: 0
+https://www.zillow.com/homes/homedetails/3653-Hughes-Ave-APT-105-Los-Angeles-CA-90034/2098354428_zpid/ 0 2000 TJ: 0, TGT: 0
+https://www.zillow.com/homes/homedetails/3643-Hughes-Ave-APT-101-Los-Angeles-CA-90034/2105965885_zpid/ 1 2000 TJ: 0, TGT: 0
+https://www.zillow.com/b/3300-castle-heights-ave-los-angeles-ca-5Xkptz/ 0 2000 TJ: 0, TGT: 0
+https://www.zillow.com/homes/homedetails/3135-S-Durango-Ave-APT-2-Los-Angeles-CA-90034/2088061591_zpid/ 1 2000 TJ: 0, TGT: 0
+https://www.zillow.com/b/3643-hughes-ave-los-angeles-ca-5XtRLX/ 0 2000 TJ: 0, TGT: 0
+https://www.zillow.com/b/3536-hughes-ave.-los-angeles-ca-5j3M66/ 0 2050 TJ: 0, TGT: 0
 
 Sawtelle Apartments
-https://www.zillow.com/homes/homedetails/1599-Brockton-Ave-1-Los-Angeles-CA-90025/2079186048_zpid/ 1 1750
-https://www.zillow.com/homes/homedetails/1422-Armacost-Ave-5-Los-Angeles-CA-90025/2080554572_zpid/ 0 1800
-https://www.zillow.com/homes/homedetails/1672-Colby-Ave-APT-2-Los-Angeles-CA-90025/2105499924_zpid/ 1 2000
-https://www.zillow.com/homes/homedetails/1550-S-Bundy-Dr-Los-Angeles-CA-90025/2080056989_zpid/ 2 2000
-https://www.zillow.com/homes/homedetails/11330-Ohio-Ave-APT-1-Los-Angeles-CA-90025/2079640035_zpid/ 1 2000
-https://www.zillow.com/homes/homedetails/1561-S-Barrington-Ave-3-312-Los-Angeles-CA-90025/2079316469_zpid/ 0 2150
-https://www.zillow.com/homes/homedetails/1535-Amherst-Ave-103-Los-Angeles-CA-90025/2079218896_zpid/ 0 2150
-15
+https://www.zillow.com/b/1825-beloit-ave.-los-angeles-ca-5YCF2X/ 0 2000 TJ: 0, TGT: 5
+https://www.zillow.com/homes/homedetails/1519-1521-Purdue-Ave-5-Los-Angeles-CA-90025/2078949501_zpid/ 0 2075 TJ: 0, TGT: 0
+https://www.zillow.com/homes/homedetails/12424-Texas-Ave-3-Los-Angeles-CA-90025/2079111168_zpid/ 0 2100 TJ: 0, TGT: 0
+https://www.zillow.com/homes/homedetails/1535-Amherst-Ave-103-Los-Angeles-CA-90025/2079218896_zpid/ 0 2150 TJ: 0, TGT: 0
+https://www.zillow.com/b/1223-s-bundy-dr-los-angeles-ca-5j3Jk7/ 0 2200 TJ: 0, TGT: 0
+https://www.zillow.com/homes/homedetails/1707-Brockton-Ave-APT-4-Los-Angeles-CA-90025/2098630302_zpid/ 1 2400 TJ: 0, TGT: 0
+18
