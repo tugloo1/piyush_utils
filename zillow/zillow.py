@@ -3,7 +3,7 @@ import json
 
 
 class ZillowAnalyzer(object):
-    defaults = {'pets': 'unknown', 'floor': 0, 'rent': 0, 'area': None, 'target': 0,
+    defaults = {'pets': 'unknown', 'rent': 0, 'area': None, 'target': 0,
                 'trader-joes': 0, 'marukai': 0, 'metro': 0}
 
     def __init__(self, main_folder: str):
@@ -116,9 +116,9 @@ class ZillowAnalyzer(object):
             json.dump(self.listing_status_map, indent=4, sort_keys=True, fp=f)
 
     def get_info_string(self, listing):
-        string = '{0} {1} {2} TJ: {3}, TGT: {4}'
+        string = '{0} {1} TJ: {2}, TGT: {3}'
         info = self.listing_status_map[listing]
-        string = string.format(listing, info['floor'], info['rent'], info['trader-joes'], info['target'])
+        string = string.format(listing, info['rent'], info['trader-joes'], info['target'])
         return string
 
     def generate_listings_by_area_and_rent(self):
