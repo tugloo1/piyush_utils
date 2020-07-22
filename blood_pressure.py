@@ -1,4 +1,5 @@
 import csv
+from bokeh.models import Range1d
 from bokeh.plotting import figure, show, Figure
 from typing import List, Tuple
 
@@ -74,6 +75,7 @@ class BloodPressureDataManager(object):
         a, b, c = self.get_hands_curled_avgs()
         d, e, f = self.get_hands_straight_avgs()
         p = figure(plot_width=800, plot_height=400)
+        p.y_range = Range1d(65, 145)
         p.multi_line([x_line, x_line, x_line, x_line], [a, b, d, e],
                      color=["firebrick", "navy", 'orange', 'green'], alpha=[0.8, 0.3, 0.8, 0.3], line_width=4)
 
