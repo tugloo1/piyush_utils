@@ -1,58 +1,57 @@
-
 import csv
-from bokeh.plotting import figure, output_file, show
-
-blood_pressure_file = 'blood-pressure.csv'
-
-avgs = []
-
-def get_avgs(array):
-    systole, diastole, hr = 0, 0 , 0
-    for i in array:
-        s, d, h = i.split('/')
-        systole += int(s)
-        diastole += int(d)
-        hr += int(h)
-    systole = int(systole/3)
-    diastole = int(diastole/3)
-    hr = int(hr/3)
-    return systole, diastole, hr
+from bokeh.plotting import figure, output_file, show, Figure
+from typing import List, Tuple
 
 
-with open(blood_pressure_file, newline='') as f:
-    reader = csv.reader(f, delimiter=' ', quotechar='|')
-    next(reader)
-    for row in reader:
-        row = row[0]
-        row = row.split(',')
-        wrists = row[1:4]
-        wrist_avg = get_avgs(wrists)
-        hands = row[4:]
-        hand_avg = get_avgs(hands)
-        data = [row[0], list(wrist_avg), list(hand_avg)]
-        avgs.append(data)
-
-for line in avgs:
-    print(line)
-
-avgs.pop(0)
-avgs.pop(0)
+class BloodPressureReading(object):
+    def __init__(self, raw_str: str):
+        self.systole, self.diastole, self.hr = raw_str.split('/')
 
 
-x_line = list(range(len(avgs)))
-wrist_sys = [i[1][0] for i in avgs]
-wrist_dia = [i[1][1] for i in avgs]
-wrist_hr = [i[1][2] for i in avgs]
+class BloodPressureDataManager(object):
+    def __init__(self):
+        self.hands_curled_list, self.hands_straight_list = self.parse_data()
 
-hand_sys = [i[2][0] for i in avgs]
-hand_dia = [i[2][1] for i in avgs]
+    @classmethod
+    def parse_data(cls) -> Tuple[List[BloodPressureReading], List[BloodPressureReading]]:
+        with open('blood-pressure.csv', newline='') as f:
+            reader = csv.reader(f, delimiter=' ', quotechar='|')
+            next(reader)
+            hands_curled_data, hands_straight_data = [], []
+            for row in reader:
+                row = row[0]
+                row = row.split(',')
+                hands_curled_data.append(cls.convert_raw_blood_pressure_data_into_struct(row[1:4]))
+                hands_straight_data.append(row[4:])
+            return hands_curled_data, hands_straight_data
+
+    @classmethod
+    def convert_raw_blood_pressure_data_into_struct(cls, data: List[str]) -> List[BloodPressureReading]:
+        pass
+
+    def get_wrist_avgs(self, drop_highest_systole=False, drop_highest_diastole=False):
+        pass
+
+    def get_hands_straight_avgs(self, drop_highest_systole=False, drop_highest_diastole=False):
+        pass
+
+    def get_heart_rate_avgs(self):
+        pass
+
+    def create_range_plots(self):
+        pass
+
+    def create_basic_line_graph(self) -> Figure:
+        p = figure(plot_width=800, plot_height=400)
+        p.multi_line([x_line, x_line, x_line, x_line], [wrist_sys, wrist_dia, hand_sys, hand_dia],
+                     color=["firebrick", "navy", 'orange', 'green'], alpha=[0.8, 0.3, 0.8, 0.3], line_width=4)
+
+        return p
 
 
-output_file("patch.html")
 
-p = figure(plot_width=400, plot_height=400)
-
-p.multi_line([x_line, x_line, x_line, x_line], [wrist_sys, wrist_dia, hand_sys, hand_dia],
-             color=["firebrick", "navy", 'orange', 'green'], alpha=[0.8, 0.3, 0.8, 0.3], line_width=4)
-
-show(p)
+if __name__ == '__main__':
+    manager = BloodPressureDataManager()
+    graph = manager.create_basic_line_graph()
+    # output_file("patch.html")
+    show(graph)
