@@ -7,6 +7,11 @@ from urllib.parse import urlparse
 from urllib.parse import parse_qs
 
 
+class Locations:
+    cheviot_hills = "Cheviot Hills Pay Tennis"
+    vermont_canyon = "Vermont Canyon Pay Tennis"
+
+
 def trifit_tennis():
     today = arrow.now().format("MM/DD/YYYY")
     one_week = arrow.now().shift(days=8).format("MM/DD/YYYY")
@@ -19,8 +24,16 @@ def trifit_tennis():
             print(selected)
 
 
-def le_cheviot_hills(selected_date: str, begin_time: str="8:00am"):
-    params = {'Action': 'Start', 'date': selected_date, 'begintime': begin_time, 'location': 'Cheviot Hills Pay Tennis', 'keywordoption': 'Match One', 'blockstodisplay': '10', 'frheadcount': '0', 'display': 'Detail', 'module': 'FR'}
+def la_tennis_parks_court_finder(selected_date: str, begin_time: str, location: str):
+    params = {'Action': 'Start',
+              'date': selected_date,
+              'begintime': begin_time,
+              'location': location,
+              'keywordoption': 'Match One',
+              'blockstodisplay': '10',
+              'frheadcount': '0',
+              'display': 'Detail',
+              'module': 'FR'}
     response = requests.get("https://reg.laparks.org/web/wbwsc/webtrac.wsc/search.html", params=params)
     soup_parser = BeautifulSoup(response.content)
     court_htmls = soup_parser.find_all("table", {"id": "frwebsearch_output_table"})
@@ -31,14 +44,27 @@ def le_cheviot_hills(selected_date: str, begin_time: str="8:00am"):
         availability[court_name] = []
         time_slots = html.find("td", {"class": "cart-blocks"}).find_all("a")
         for slot in time_slots:
-            time_slot = slot.text
+            time_slot = slot.text.lstrip()
             if slot.attrs["data-tooltip"] != '<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block.':
                 availability[court_name].append(time_slot)
             continue
-    pprint.pprint(availability)
+    return availability
 
+
+def print_out_court_availability(selected_date: str, location: str):
+    availability = la_tennis_parks_court_finder(selected_date, begin_time="8:00am", location=location)
+    # pprint.pprint(availability)
+    court_availability_dict = {}
+    for court, times in availability.items():
+        for time in times:
+            if time not in court_availability_dict:
+                court_availability_dict[time] = [court]
+            else:
+                court_availability_dict[time].append(court)
+    pprint.pprint(court_availability_dict)
 
 
 if __name__ == "__main__":
     # trifit_tennis()
-    le_cheviot_hills("09/02/2022")
+    print_out_court_availability("02/23/2023", location=Locations.cheviot_hills)
+
