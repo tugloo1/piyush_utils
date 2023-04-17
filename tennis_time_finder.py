@@ -35,7 +35,7 @@ def la_tennis_parks_court_finder(selected_date: str, begin_time: str, location: 
               'display': 'Detail',
               'module': 'FR'}
     response = requests.get("https://reg.laparks.org/web/wbwsc/webtrac.wsc/search.html", params=params)
-    soup_parser = BeautifulSoup(response.content)
+    soup_parser = BeautifulSoup(response.content, features="html.parser")
     court_htmls = soup_parser.find_all("table", {"id": "frwebsearch_output_table"})
     availability = {}
     for html in court_htmls:
@@ -45,13 +45,15 @@ def la_tennis_parks_court_finder(selected_date: str, begin_time: str, location: 
         time_slots = html.find("td", {"class": "cart-blocks"}).find_all("a")
         for slot in time_slots:
             time_slot = slot.text.lstrip()
+            start_time = arrow.get(time_slot.split('-')[0].rstrip(), 'h:mm a')
             if slot.attrs["data-tooltip"] != '<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block.':
-                availability[court_name].append(time_slot)
+                availability[court_name].append(start_time)
             continue
     return availability
 
 
 def print_out_court_availability(selected_date: str, location: str):
+    print("Court Availability for " + location)
     availability = la_tennis_parks_court_finder(selected_date, begin_time="8:00am", location=location)
     # pprint.pprint(availability)
     court_availability_dict = {}
@@ -61,10 +63,11 @@ def print_out_court_availability(selected_date: str, location: str):
                 court_availability_dict[time] = [court]
             else:
                 court_availability_dict[time].append(court)
-    pprint.pprint(court_availability_dict)
+    for start_time in sorted(court_availability_dict.keys()):
+        print("{0} -> {1}".format(start_time.format("h:mm a"), str(court_availability_dict[start_time])))
 
 
 if __name__ == "__main__":
     # trifit_tennis()
-    print_out_court_availability("02/23/2023", location=Locations.cheviot_hills)
+    print_out_court_availability("4/20/2023", location=Locations.cheviot_hills)
 
