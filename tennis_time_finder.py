@@ -1,10 +1,7 @@
 import json
-import pprint
 import arrow
 from bs4 import BeautifulSoup
 import requests
-from urllib.parse import urlparse
-from urllib.parse import parse_qs
 
 
 class Locations:
@@ -35,6 +32,8 @@ def la_tennis_parks_court_finder(selected_date: str, begin_time: str, location: 
               'frheadcount': '0',
               'display': 'Detail',
               'module': 'FR'}
+    exclusion_criteria = {'<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block.',
+                          '<h2>Unavailable</h2>The begin date and time have already passed.'}
     response = requests.get("https://reg.laparks.org/web/wbwsc/webtrac.wsc/search.html", params=params)
     soup_parser = BeautifulSoup(response.content, features="html.parser")
     court_htmls = soup_parser.find_all("table", {"id": "frwebsearch_output_table"})
@@ -47,7 +46,7 @@ def la_tennis_parks_court_finder(selected_date: str, begin_time: str, location: 
         for slot in time_slots:
             time_slot = slot.text.lstrip()
             start_time = arrow.get(time_slot.split('-')[0].rstrip(), 'h:mm a')
-            if slot.attrs["data-tooltip"] != '<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block.':
+            if slot.attrs["data-tooltip"] not in exclusion_criteria:
                 availability[court_name].append(start_time)
             continue
     return availability
