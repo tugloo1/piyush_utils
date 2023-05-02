@@ -10,6 +10,7 @@ from urllib.parse import parse_qs
 class Locations:
     cheviot_hills = "Cheviot Hills Pay Tennis"
     vermont_canyon = "Vermont Canyon Pay Tennis"
+    westwood = "Westwood Pay Tennis"
 
 
 def trifit_tennis():
