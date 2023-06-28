@@ -9,6 +9,8 @@ class Locations:
     vermont_canyon = "Vermont Canyon Pay Tennis"
     westwood = "Westwood Pay Tennis"
     stoner = "Stoner RC"
+    poinsettia = "Poinsettia Pay Tennis"
+    riverside = "Riverside Courts Pay Tennis"
 
 today = arrow.now()
 one_week = arrow.now().shift(days=8)
@@ -60,7 +62,7 @@ def la_tennis_parks_court_finder(selected_date: str, begin_time: str, location: 
 
 
 def print_out_court_availability(selected_date: str, location: str, begin_time: str = "8:00 am"):
-    print("Court Availability for {0} on {1}".format(location, selected_date))
+    print("Court Availability for {0} on {1} after {2}".format(location, selected_date, begin_time))
     availability = la_tennis_parks_court_finder(selected_date, begin_time=begin_time, location=location)
     # pprint.pprint(availability)
     court_availability_dict = {}
@@ -72,6 +74,7 @@ def print_out_court_availability(selected_date: str, location: str, begin_time: 
                 court_availability_dict[time].append(court)
     for start_time in sorted(court_availability_dict.keys()):
         print("{0} -> {1}".format(start_time.format("h:mm a"), str(court_availability_dict[start_time])))
+    print("\n")
 
 def print_out_availability_for_next_week(location: str):
     current_date = today
@@ -83,7 +86,7 @@ def print_out_availability_for_next_week(location: str):
 
 
 def check_all_courts_for_date_and_time(selected_date: str, begin_time: str):
-    for location in {Locations.cheviot_hills, Locations.stoner, Locations.westwood}:
+    for location in {Locations.cheviot_hills, Locations.stoner, Locations.westwood, Locations.vermont_canyon, Locations.poinsettia, Locations.riverside}:
         print_out_court_availability(selected_date, location=location, begin_time=begin_time)
 
 
